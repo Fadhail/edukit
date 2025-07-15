@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/atoms/card";
-import { leadership, developers, advisors, teamStats } from "@/data/team";
+import { leadership, developers } from "@/data/team";
 
 const Team = () => (
   <section id="tim" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
@@ -21,6 +21,7 @@ const Team = () => (
                 <CardContent className="p-8 text-center">
                   <div className="relative mb-6">
                     <div className={`w-32 h-32 mx-auto rounded-full overflow-hidden bg-gradient-to-br ${member.gradientColors} p-1`}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={member.image}
                         alt={member.name}
@@ -76,6 +77,7 @@ const Team = () => (
                 <CardContent className="p-6 text-center">
                   <div className="relative mb-4">
                     <div className={`w-24 h-24 mx-auto rounded-full overflow-hidden bg-gradient-to-br ${member.gradientColors} p-1`}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={member.image}
                         alt={member.name}
