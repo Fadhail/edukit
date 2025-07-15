@@ -34,7 +34,7 @@ const Hero = () => {
                     className="object-contain"
                   />
                 </div>
-                <div className="relative w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex-shrink-0">
+                {/* <div className="relative w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex-shrink-0">
                   <Image
                     src="/IRC.png"
                     alt="Logo Drone Edukit"
@@ -49,7 +49,7 @@ const Hero = () => {
                     fill
                     className="object-contain"
                   />
-                </div>
+                </div> */}
               </div>
               {/* End Logo Section */}
 
@@ -96,7 +96,7 @@ const Hero = () => {
           </div>
 
           {/* 3D Drone */}
-          <div className="h-96 bg-none lg:h-[500px] rounded-2xl overflow-hidden">
+          {/* <div className="h-96 bg-none lg:h-[500px] rounded-2xl overflow-hidden">
             <Canvas 
               camera={{ position: [5, 5, 5], fov: 50 }}
               onCreated={handleCanvasCreated}
@@ -115,7 +115,7 @@ const Hero = () => {
               <OrbitControls enableZoom={false} enablePan=  {false} autoRotate autoRotateSpeed={1} />
               <Environment preset="studio" />
             </Canvas>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
